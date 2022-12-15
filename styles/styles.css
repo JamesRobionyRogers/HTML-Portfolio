@@ -19,3 +19,77 @@ html .border-light {
 i {
     margin: 0 0.5rem
 }
+
+html p {
+    font-size: 1em; 
+    font-weight: 200;
+}
+
+html .card-title {
+    line-height: 1em;
+}
+
+.java-lang {
+    background: rgba(176, 114, 25, 0.5);
+    font-size: .6em;
+
+    padding: 0.1rem 0.2rem; 
+
+    border-radius: 3px;
+    border: 1px;
+}
+
+html .card-text {
+    color: #b7bfc7; 
+
+    font-size: 0.7em;
+    font-weight: 100;
+}
+
+html .card-buttons{
+    margin-top: 1rem; 
+    padding: 0;
+
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 0.7em; 
+    font-weight: 100;
+}
+
+.card-btn-link {
+    /* text-decoration: none; */
+
+    color: #b7bfc7;
+    /* background: #b7bfc7; */
+
+    /* border: 1px solid #b7bfc7; */
+    border-radius: 3px; 
+    padding: 0rem 0.2rem;
+
+    transition: all 0.2s ease-out;
+}
+
+.card-btn-link:hover {
+    background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 600; 
+}
+
+.boxer {
+    border: 2px; 
+    border-color: aqua;
+}
+
+.github-icon {
+    font-size: 1.2em;
+    font-weight: 100; 
+}
+
+.hidden {
+    display: none; 
+}
