@@ -1,0 +1,11 @@
+html .text-bg-dark {
+    background-color: #121212 !important; 
+}
+
+html .text-bg-gray {
+    background-color: #161b22 !important; 
+}
+
+html .border-light {
+    border-color: #30363d !important; 
+}
