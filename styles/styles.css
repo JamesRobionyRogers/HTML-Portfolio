@@ -118,11 +118,18 @@ html .card-buttons{
     
     font-size: 0.7em;
     font-weight: 300;
-    
-    margin: -2rem 3rem;
-    margin-bottom: -3rem;
 
-    /* margin-bottom: 1rem; */
+    right: 5rem; 
+}
+
+.timeline-location {
+    color: #b7bfc7;
+    
+    font-size: 0.7em;
+    font-weight: 300;
+    
+    padding-top: 8px; 
+    left: 17rem;
 }
 
 .timeline-text {
