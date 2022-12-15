@@ -9,3 +9,13 @@ html .text-bg-gray {
 html .border-light {
     border-color: #30363d !important; 
 }
+
+.text-gradient {
+    background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+i {
+    margin: 0 0.5rem
+}
