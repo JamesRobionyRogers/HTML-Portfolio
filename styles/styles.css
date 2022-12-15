@@ -16,7 +16,7 @@ html .border-light {
     -webkit-text-fill-color: transparent;
 }
 
-i {
+#skills i {
     margin: 0 0.5rem
 }
 
@@ -106,10 +106,50 @@ html .card-buttons{
     font-weight: 600; 
 }
 
-.boxer {
-    border: 2px; 
-    border-color: aqua;
+/* Education */
+
+.timeline { 
+    border-left: solid #b7bfc7;
+    border-width: 3px;
 }
+
+.timeline-date {
+    color: #b7bfc7;
+    
+    font-size: 0.7em;
+    font-weight: 300;
+    
+    margin: -2rem 3rem;
+    margin-bottom: -3rem;
+
+    /* margin-bottom: 1rem; */
+}
+
+.timeline-text {
+    color: #b7bfc7;
+
+    font-size: 0.7em;
+    font-weight: 100;
+
+    margin: -1rem 3rem; 
+
+}
+
+
+.edu-bubble {
+    border-radius: 50%;
+    background: #121212; 
+    width: 2.4rem;
+    height: 2.4rem;
+
+    z-index: 1;
+}
+
+.edu-icon {
+    position: absolute;
+    color: #b7bfc7; 
+}
+
 
 .github-icon {
     font-size: 1.2em;
