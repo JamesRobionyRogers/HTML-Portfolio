@@ -10,10 +10,46 @@ html .border-light {
     border-color: #30363d !important; 
 }
 
+.memoji {
+    top: 12rem; 
+    right: 2rem; 
+}
+
+
 .text-gradient {
     background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+div.sticky-links {
+    position: fixed;
+
+    border: solid 1px #b7bfc7;
+    border-radius: 16px;
+
+    padding: 0.3em 0.2em; 
+    bottom: 1rem;
+    right: 1rem;
+
+    z-index: 1;
+}
+
+.sticky-link {
+    text-decoration: none;
+    color: #fff;
+
+    transition: all 0.2s ease-out; 
+}
+
+.sticky-link-github:hover {
+    background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+html .sticky-link-linkedin:hover {
+    color: #00a0dc !important; 
 }
 
 #skills i {

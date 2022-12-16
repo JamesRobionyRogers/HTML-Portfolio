@@ -13,12 +13,16 @@ $(document).ready(function () {
                 <img src="./assets/cv-pages/CV_JamesRobiony-Rogers_Page2.pdf" alt="">
                 <img src="./assets/cv-pages/CV_JamesRobiony-Rogers_Page3.pdf" alt="">
             </div>`,
-            
+
+            showConfirmButton: false,
             showCloseButton: true,
-            confirmButtonColor: '#D92B2B',
-            confirmButtonText: 'Close'
         })
     })
+
+
+    var typewriter = new Typewriter($('.typing'), {
+        strings: [ 'Strings', 'To', 'Type' ]
+    });
 
     
 
