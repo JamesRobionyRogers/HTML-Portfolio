@@ -31,6 +31,12 @@ html .card {
     -moz-box-shadow: 12px 11px 18px 0px rgba(0, 0, 0, 0.75);
 }
 
+html .card, .card-shadow {
+    box-shadow: 12px 11px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 12px 11px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 11px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
 html .project-card {
     max-width: 45%;
     
@@ -85,13 +91,9 @@ html .card-buttons{
     font-weight: 100;
 }
 
-.card-btn-link {
-    /* text-decoration: none; */
-
+.card-btn-link, .download-link {
     color: #b7bfc7;
-    /* background: #b7bfc7; */
 
-    /* border: 1px solid #b7bfc7; */
     border-radius: 3px; 
     padding: 0rem 0.2rem;
 
@@ -104,6 +106,14 @@ html .card-buttons{
     -webkit-text-fill-color: transparent;
 
     font-weight: 600; 
+}
+
+.download-link:hover {
+    background: linear-gradient(90deg, #ff7170 2.34%, #ffe57f 100.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-weight: 600;
 }
 
 /* Education */
@@ -163,6 +173,26 @@ html .card-buttons{
     font-weight: 100; 
 }
 
+
+.cv-preview {
+    max-width: 30%;
+    margin-top: 13rem;
+
+    transition: all 0.4s ease-in-out;
+}
+
+.cv-preview:hover {
+    transform: scale(1.05);
+
+    cursor: pointer;
+}
+
+
+
 .hidden {
     display: none; 
+}
+
+html .swal2-modal {
+    width: 80% !important;
 }
